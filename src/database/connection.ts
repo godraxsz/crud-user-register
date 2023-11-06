@@ -15,6 +15,7 @@ const db = new Sequelize(dbName, dbUser, dbPassword, {
     host: dbHost,
     dialect: dbDialect,
     timezone: dbTimezone,
+    logging: false, // Desativar logs no console
 });
 
 export default db;
