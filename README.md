@@ -17,6 +17,7 @@ DB_TIMEZONE=-03:00
 ```
 
 # Database
+Nome padrão: crud-user-register
 
 ```
 CREATE TABLE `users` (
