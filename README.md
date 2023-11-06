@@ -1,8 +1,10 @@
 
-# crud-user-register
+# crud-user-register (Back-end)
 
-Back-end de um sistema CRUD de usuários.
+Sistema CRUD de gerenciamento de usuários.
 
+## Front-end
+https://github.com/godraxsz/crud-user-register-app
 
 # .env
 ```
