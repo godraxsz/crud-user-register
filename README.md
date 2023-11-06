@@ -33,3 +33,36 @@ COLLATE='utf8mb4_0900_ai_ci'
 ENGINE=InnoDB
 ;
 ```
+
+# API
+
+```
+[GET] Buscar Todos Usuários:
+http://localhost:8000/api/users/
+[GET] Buscar Usuário por Nome:
+http://localhost:8000/api/users/matheus
+[GET] Buscar Usuário por Data e/ou Nome:
+http://localhost:8000/api/users/date/01-01-2023+31-12-2023/matheus
+
+[POST] Adicionar Usuário
+http://localhost:8000/api/users/
+
+{
+	"name": "Matheus Parisi",
+	"email": "matheusfontesparisi@hotmail.com",
+	"phone": "11952275405"
+}
+
+[PUT] Atualizar Usuário
+http://localhost:8000/api/users/1 < ID do Usuário
+
+{
+	"name": "Matheus Parisi",
+	"email": "matheusfontesparisi@hotmail.com",
+	"phone": "11952275405"
+}
+
+[DELETE] Deletar Usuário
+http://localhost:8000/api/users/1 < ID do Usuário
+
+```
